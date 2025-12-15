@@ -395,7 +395,7 @@ test('visit', async function (t) {
       n++
 
       if (parent && n === 2) {
-        assert(parent.type === 'root')
+        assert.equal(parent.type, 'root')
         parent.children.push(other)
       }
     })

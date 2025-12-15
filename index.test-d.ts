@@ -1,3 +1,4 @@
+/* eslint-disable @typescript-eslint/no-unsafe-return -- seems to be false positives */
 import {expectAssignable, expectNotType, expectType} from 'tsd'
 import type {
   Blockquote,
