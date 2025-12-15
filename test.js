@@ -1,6 +1,6 @@
 /**
- * @typedef {import('mdast').Root} Root
- * @typedef {import('unist').Node} Node
+ * @import {Root} from 'mdast'
+ * @import {Node} from 'unist'
  */
 
 import assert from 'node:assert/strict'
